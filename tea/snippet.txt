@@ -1,0 +1,15 @@
+<model-viewer src="tealeaves-fin.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1" exposure="1.21" auto-rotate>
+    <button class="Hotspot" slot="hotspot-2" data-position="-0.11439476784472483m 0.09032592079123325m 0.11612332916187847m" data-normal="-0.8595090975770504m -0.28061777456634757m 0.42719758400500696m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">貓空茶葉
+        </div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
